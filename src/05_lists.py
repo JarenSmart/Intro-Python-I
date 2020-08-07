@@ -31,5 +31,5 @@ print(x)
 print(len(x))
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
-newX = [i * 1000 for i in x]
-print(newX)
+for i in x:
+    print(i * 1000)
